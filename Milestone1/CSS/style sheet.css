@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../images/img/HEADER.png);
+	Background-repeat: repeat-x ;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#logo {
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+/** Header**/
+
+/*Navigation*/
+#navigation {
+	background: #39F ;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+
+#navigation ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 160px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+
+#navigation li a {
+	color: #FFF;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover {
+	background-position: 0 -59px;
+	color: #666 ;
+}
+#navigation li.selected a {
+	background-position: 0 0;
+	margin-top: 10px;
+	color: #000;
+
+}
+
+
+#navigation ul ul {
+	display: none;
+}
+
+#navigation ul li:hover > ul {
+		display: block;
+	}
+#navigation ul ul li {
+		float: none; 
+		border-top: 1px solid #FFF;
+		border-bottom: 1px solid #FFF;
+		position: relative;
+		background-color:#39f;
+		width:160px;
+}
+/** FOOTER**/
+#footer {
+	background-image:url(../images/img/Footer.png);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#footer div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 59px 0 13px;
+}
+#footer div p {
+	color: #FFF;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 33px 0 50px;
+	text-align: center;
+	text-transform: none
+}
+#footer div .connect {
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 240px;
+}
+
+#footer div .connect a.facebook {
+	background-position: 0 0;
+	margin-left: 40px;
+}
+#footer div .connect a.googleplus {
+	background-position: 0 -32px;
+	margin-left: 30px;
+}
+#footer div .connect a.twitter {
+	background-position: 0 -96px;
+	margin-left: 30px;
+}
+/** Content**/
+
+#contents h1 {
+	color: #000 ;
+	font: 16px/20px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	color:#36F ;
+	font: 20px/25px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+
+}
+#contents h3 {
+	color: #309 ;
+	font: 30px/40px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+	text-align:center;
+}
